@@ -40,15 +40,3 @@ print "Files in", dir_opt, ":"
 
 for file_name in sys.argv:
     print md5sum(file_name);
-    
-
-#die = exit
-#variables
-#$ = scalar 
-#@ = arrays
-#% = hases, which are like dict
-#my = local variable declarations
-#our = "shared scope" variables, like globals
-#sub = are usually in @_, but it only passed one argument, it'll be in $_
-
-
